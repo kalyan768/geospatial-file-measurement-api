@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sample Survey</name>
+    <Placemark>
+      <name>Sample Point</name>
+      <Point><coordinates>78.0000,17.0000,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sample Road</name>
+      <LineString><coordinates>78.0000,17.0000,0 78.0100,17.0000,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sample Plot</name>
+      <ExtendedData><Data name="owner"><value>Demo</value></Data></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>
+        78.0000,17.0000,0 78.0100,17.0000,0 78.0100,17.0100,0 78.0000,17.0100,0 78.0000,17.0000,0
+      </coordinates></LinearRing></outerBoundaryIs></Polygon>
+    </Placemark>
+  </Document>
+</kml>
